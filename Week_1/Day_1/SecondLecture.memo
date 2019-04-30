@@ -1,0 +1,16 @@
+connecting terminal commands
+  vargant up && vargant ssh
+smash that tab to autocomplete file / dir names
+touch create new file
+
+subline
+  -open dir instead of file (if working more in one dir)
+  - crtl n -> open new file
+  - ctrl sa -> save file {if new file first line = fileName}
+  - ctrl l -> select line
+  - ctrl c {copy}, v {paste}, x{cut}
+  - ctrl d {select next apparence of a word}
+  - ctrl shif f - search though files
+  - ctrl p -> jump to file
+
+  version control

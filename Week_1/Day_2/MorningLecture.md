@@ -22,3 +22,28 @@
   console.log(sumOnlyWholeNumbers(args));
 
 ```
+
+Node debugger
+``` js
+  function sumOnlyWholeNumbers(args){
+    var sum = 0;
+    for(let item of args){
+      let number = Number(item);
+      if(number !== NaN && number % 1 === 0){
+        sum += number;
+        debugger;
+      }
+    }
+    return sum;
+  }
+
+
+  var args = process.argv.split(2);
+  console.log(sumOnlyWholeNumbers(args));
+
+```
+
+can be used by calling Node with inspect flag:
+```
+node inspect example.js
+```
